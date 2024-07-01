@@ -9,6 +9,10 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -27,7 +31,10 @@
 
 /* Special paddings/ margins/ text */
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
@@ -78,7 +85,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all .5s ease-in-out; /*animation for when the image is loading*/
+    transition: all .5s ease-in-out;
+    /*animation for when the image is loading*/
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
@@ -124,7 +132,8 @@ header {
 }
 
 .menuitem a {
-    width: 100%; /*Make entire area clickable*/
+    width: 100%;
+    /*Make entire area clickable*/
     text-decoration: none;
     color: #fff;
     height: 120px;
@@ -132,9 +141,11 @@ header {
 
 .menuitem a i {
     padding-top: 22px;
-    display: block; /*Make icon appear on a line of its own*/
+    display: block;
+    /*Make icon appear on a line of its own*/
     color: #fafafa;
-    font-size: 26px; /*Font-size on a fa icon to increase size!!*/
+    font-size: 26px;
+    /*Font-size on a fa icon to increase size!!*/
 }
 
 .menuitem span {
@@ -160,7 +171,8 @@ header {
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px; /*defaults to 120px now*/
+    min-height: 120px;
+    /*defaults to 120px now*/
     margin: 0;
 }
 
@@ -216,4 +228,39 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 15px;
+}
+
+/* Personal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
